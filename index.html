@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <title>Project</title>
+  </head>
+
+  <body onload='onload_slider()'>
+
+    <div id='vitrine'>
+      <header>
+        <div id='header_left'>
+        </div>
+        <div id='header_center'>
+          <img src='./img/logo.png'>
+        </div>
+        <div id='header_right'>
+          <img id='cart_button' onclick="window.location.href='cart.html'" src='./img/cart.png'>
+        </div>
+      </header>
+
+      <div id='buttons_vitrine'>
+        <button class='links' onclick="window.location.href='index.html'">Home</button>
+        <button class='links' onclick="window.location.href='team.html'">The team</button>
+        <button class='links' onclick="window.location.href='camps.html'">Camps</button>
+        <button class='links' onclick="window.location.href='faqs.html'">FAQs</button>
+        <button class='links' onclick="window.location.href='contact.html'">Contact</button>
+      </div>
+      <h1>Sport & co</h1>
+      <br>
+      <h3>Sports camp, where champions are made !</h3>
+      <br>
+      <a class='big_links' href='camps.html'>See the camps</a>
+    </div>
+
+    <div class='ideas_section'>
+      <div class='ideas_section_txt ideas_section_right'><p>Summer camps for children. Led by experienced instructors.</p></div>
+      <div class='ideas_section_img ideas_section_left' id='children_bg'></div>
+    </div>
+
+    <div class='ideas_section'>
+      <div class='ideas_section_txt ideas_section_left'><p>Fun, safe environment. From 2 to 12 years old.</p></div>
+      <div class='ideas_section_img ideas_section_right' id='children2_bg'></div>
+    </div>
+
+    <div class='ideas_section'>
+      <div class='ideas_section_txt ideas_section_right'><p>Variety of camp options : bike, circus, water, musical…</p></div>
+      <div class='ideas_section_img ideas_section_left' id='bike_img'></div>
+    </div>
+
+    <br><br><br><br><br>
+    <div class='slider_section'>
+      <h1>Our camps</h1>
+      <div class='slider_left_div'><div class='left_arrow' onclick="scroll_left()"></div></div>
+      <div class='slider_center_div'>
+        <div id='bike_img' class='slider_cards' onclick="window.location.href='camp_info.html'"></div>
+        <div id='water_img' class='slider_cards' onclick="window.location.href='camp_info.html'"></div>
+        <div id='circus_img' class='slider_cards' onclick="window.location.href='camp_info.html'"></div>
+        <div id='psycho_img' class='slider_cards' onclick="window.location.href='camp_info.html'"></div>
+      </div>
+      <div class='slider_right_div'><div class='right_arrow' onclick="scroll_right()"></div></div>
+    </div>
+
+    <!-- <div class='ideas_section'>
+      <div class='ideas_section_little'>
+        <p>TEST</p>
+      </div>
+      <div class='ideas_section_big'></div>
+    </div> -->
+
+    <!-- <div class='cards_section'>
+      <br>
+      <h2>Sport & co</h2>
+      <h4>Where champions are made !</h4>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <br>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div> -->
+    <br><br><br><br><br><br><br>
+    <div class='ideas_section'>
+      <div class='ideas_section_txt ideas_section_left'>
+        <div>
+          <h1>Find us now !</h1>
+          <br>
+          <a class='big_links' href='contact.html'>Contact us</a>
+        </div>
+      </div>
+      <div class='ideas_section_img ideas_section_right' id='map_bg'></div>
+    </div>
+
+    <footer>
+      <p>Terms of sales</p>
+    </footer>
+
+  </body>
+
+
+  <script>
+    function onload_slider() {
+      let cards = document.getElementsByClassName('slider_cards');
+      for (let i=0; i<cards.length; i++) {
+        cards[i].style.left = i*240+"px";
+      }
+    }
+
+    function scroll_left() {
+      var slider = document.getElementsByClassName("slider_center_div");
+      slider[0].scrollBy(-100, 0);
+    }
+
+    function scroll_right() {
+      var slider = document.getElementsByClassName("slider_center_div");
+      slider[0].scrollBy(100, 0);
+    }
+  </script>
+
+
+</html>

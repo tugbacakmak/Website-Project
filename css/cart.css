@@ -1,0 +1,120 @@
+#vitrine {
+  background-image: url('../img/bg_img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+#lettre_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+#lettre {
+  display: inline-block;
+  padding: 30px;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+#lettre_left {
+  display: inline-block;
+  border-right: 1px solid #000;
+  text-align: left;
+  width: 700px;
+}
+
+#lettre_right {
+  display: inline-block;
+  width: 200px;
+}
+
+.info_img {
+  position: relative;
+}
+
+.img {
+  background-image: url('../img/cycling.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 20px;
+  min-height: 200px;
+  width: 350px;
+  position: relative;
+  bottom: 70px;
+}
+
+.info>p {
+  width: 350px;
+}
+
+.price {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#bike_img {
+  background-image: url('../img/cycling.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#water_img {
+  background-image: url('../img/water.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#circus_img {
+  background-image: url('../img/circus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#psycho_img {
+  background-image: url('../img/psycho.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 1010px) {
+  #lettre {
+    padding: 0px;
+  }
+
+  #lettre_left {
+    width: 90vw;
+    border-right: 0px solid #000;
+  }
+
+  .info {
+    display: inline-block;
+    margin-left: 20px;
+    min-height: 200px;
+    width: 50%;
+    position: relative;
+    bottom: 70px;
+  }
+
+  .info>p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+#vitrine {
+  background-image: url('../img/bg_img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+#buttons_vitrine {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* #last_section {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../img/map.png');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#last_section>div {
+  background-color: #0005;
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+} */
+
+#map_bg {
+  background-image: url('../img/map.png');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+.links {
+  width: 80px;
+}
+
+#children_bg {
+  background-image: url('../img/children.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#children2_bg {
+  background-image: url('../img/safe.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#bike_img {
+  background-image: url('../img/cycling.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#water_img {
+  background-image: url('../img/water.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#circus_img {
+  background-image: url('../img/circus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#psycho_img {
+  background-image: url('../img/psycho.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+.slider_cards {
+  transition: 0.5s;
+}
+
+.slider_cards:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1006px) {
+  .slider_left_div {
+    display: none;
+  }
+
+  .slider_right_div {
+    display: none;
+  }
+
+  .ideas_section_txt>p {
+    font-size: 30px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .slider_center_div {
+    width: 90vw;
+  }
+}

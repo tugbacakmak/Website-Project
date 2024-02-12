@@ -1,0 +1,52 @@
+#vitrine {
+  background-image: url('../img/bg_img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+#faq_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.question_answer_div {
+  display: inline-block;
+  position: relative;
+  width: 600px;
+}
+
+.question_div {
+  text-align: left;
+  width: 100%;
+}
+
+.question_mark {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.question_div>h3 {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  bottom: 6px;
+}
+
+.answer_div {
+  text-align: left;
+  width: 98%;
+  padding: 1%;
+  background-color: #09d3;
+}
+
+@media only screen and (max-width: 610px) {
+  .question_answer_div {
+    width: 90vw;
+  }
+}

@@ -1,0 +1,43 @@
+#vitrine {
+  background-image: url('../img/bg_img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+.cards {
+  height: 400px;
+  width: 300px;
+}
+
+#bike_img {
+  background-image: url('../img/cycling.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#water_img {
+  background-image: url('../img/water.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#circus_img {
+  background-image: url('../img/circus.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}
+
+#psycho_img {
+  background-image: url('../img/psycho.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+}

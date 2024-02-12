@@ -1,0 +1,60 @@
+#vitrine {
+  background-image: url('../img/cycling2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+}
+
+.ideas_section_txt {
+  text-align: left;
+}
+
+.ideas_section_img {
+  background-image: url('../img/cycling3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ideas_section_txt>div {
+  text-align: left;
+}
+
+#info_book_section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #00f2;
+}
+
+#info_div {
+  width: 40%;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  vertical-align:top;
+  text-align: left;
+}
+
+#book_div {
+  width: 40%;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  vertical-align:top;
+}
+
+#little_book_div {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 960px) {
+  .ideas_section_txt>div {
+    position: relative;
+    left: 0px;
+  }
+}

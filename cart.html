@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <title>Project</title>
+  </head>
+
+  <body>
+
+    <div id='vitrine'>
+      <header>
+        <div id='header_left'>
+          <button onclick="window.location.href='index.html'">Home</button>
+          <button onclick="window.location.href='team.html'">The team</button>
+          <button onclick="window.location.href='camps.html'">Camps</button>
+        </div>
+        <div id='header_center'>
+          <img src='./img/logo.png'>
+        </div>
+        <div id='header_right'>
+          <button onclick="window.location.href='faqs.html'">FAQs</button>
+          <button onclick="window.location.href='contact.html'">Contact</button>
+          <img id='cart_button' onclick="window.location.href='cart.html'" src='./img/cart.png'>
+        </div>
+      </header>
+      <br><br>
+      <h1>My cart</h1>
+      <br>
+      <h3>Here you can see all yours bookings</h3>
+      <br>
+    </div>
+
+    <div id='lettre_section'>
+      <div id='lettre'>
+        <div id='lettre_left'>
+          <div class='info_img'>
+            <div class='img' id='bike_img'></div>
+            <div class='info'>
+              <p>
+                Camp details: <br>
+                Join us for a week of fun and adventure at our bike camp. Our camp is all about discovering the joys of biking and learning new skills.
+              </p>
+              <br>
+              <p>Date: 11/01/2023</p>
+            </div>
+            <div class='price'>10$</div>
+          </div>
+
+          <div class='info_img'>
+            <div class='img' id='water_img'></div>
+            <div class='info'>
+              <p>
+                Camp details: <br>
+                Enjoy the cool refreshment of water and learn new skills through swimming lessons, water sports, and games.
+              </p>
+              <br>
+              <p>Date: 11/01/2023</p>
+            </div>
+            <div class='price'>10$</div>
+          </div>
+
+          <div class='info_img'>
+            <div class='img' id='circus_img'></div>
+            <div class='info'>
+              <p>
+                Camp details: <br>
+                Explore the thrilling world of circus arts and discover new skills and talents through juggling, acrobatics, and more.
+              </p>
+              <br>
+              <p>Date: 11/01/2023</p>
+            </div>
+            <div class='price'>10$</div>
+          </div>
+        </div>
+
+        <div id='lettre_right'>
+          <p>total : 30$</p>
+          <button>Buy now</button>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="window.location.href='camps.html'">Return to booking</button>
+
+    <footer>
+      <p>Terms of sales</p>
+    </footer>
+
+  </body>
+
+</html>
